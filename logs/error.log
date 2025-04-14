@@ -1,0 +1,7 @@
+{"level":"error","message":"Addition Error: {\"error\":\"Error!. num1 must be a number.\"}","service":"calculator-microservice"}
+{"level":"error","message":"Division Error: {\"error\":\"Error!. num1 must be a number.\"}","service":"calculator-microservice"}
+{"level":"error","message":"Division Error: {\"error\":\"Error!. num2 must be a number.\"}","service":"calculator-microservice"}
+{"level":"error","message":"Division Error: Cannot divide by zero.","service":"calculator-microservice"}
+{"level":"error","message":"Modulo Error: Cannot divide by zero.","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input for square root: undefined","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input for square root: undefined","service":"calculator-microservice"}

@@ -1,0 +1,40 @@
+{"level":"info","message":"Request: POST /add - Body: {\"num1\":10,\"num2\":5}","service":"calculator-microservice"}
+{"level":"info","message":"Addition result: 15","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /add - Body: {\"num1\":\"A\",\"num2\":5}","service":"calculator-microservice"}
+{"level":"error","message":"Addition Error: {\"error\":\"Error!. num1 must be a number.\"}","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /add - Body: {\"num1\":10,\"num2\":5}","service":"calculator-microservice"}
+{"level":"info","message":"Addition result: 15","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /subtract - Body: {\"num1\":10,\"num2\":5}","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction result: 5","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /multiply - Body: {\"num1\":10,\"num2\":5}","service":"calculator-microservice"}
+{"level":"info","message":"Multiplication result: 50","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /divide - Body: {\"num1\":10,\"num2\":5}","service":"calculator-microservice"}
+{"level":"info","message":"Division result: 2","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /divide - Body: {\"num1\":\"A\",\"num2\":5}","service":"calculator-microservice"}
+{"level":"error","message":"Division Error: {\"error\":\"Error!. num1 must be a number.\"}","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /divide - Body: {\"num1\":10,\"num2\":\"A\"}","service":"calculator-microservice"}
+{"level":"error","message":"Division Error: {\"error\":\"Error!. num2 must be a number.\"}","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /divide - Body: {\"num1\":10,\"num2\":0}","service":"calculator-microservice"}
+{"level":"error","message":"Division Error: Cannot divide by zero.","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /modulo - Body: {\"num1\":10,\"num2\":0}","service":"calculator-microservice"}
+{"level":"error","message":"Modulo Error: Cannot divide by zero.","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /modulo - Body: {\"num1\":10,\"num2\":3}","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /sqrt - Body: {\"num1\":10,\"num2\":3}","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input for square root: undefined","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /divide - Body: {\"num1\":10,\"num2\":3}","service":"calculator-microservice"}
+{"level":"info","message":"Division result: 3.3333333333333335","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /modulo - Body: {\"num1\":10,\"num2\":3}","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /sqrt - Body: {\"base\":4,\"exponent\":16}","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input for square root: undefined","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /sqrt - Body: {\"number\":16}","service":"calculator-microservice"}
+{"level":"info","message":"Square root: √16 = 4","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /exponentiate - Body: {\"base\":4,\"exponent\":16}","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 4 ^ 16 = 4294967296","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /exponentiate - Body: {\"base\":2,\"exponent\":2}","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 2 = 4","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /exponentiate - Body: {\"base\":2,\"exponent\":3}","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 3 = 8","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / - Body: {}","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / - Body: {}","service":"calculator-microservice"}

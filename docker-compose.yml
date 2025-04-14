@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  calculator-service:
+    image: binarap/calculator-microservice:latest
+    ports:
+      - "3001:3000"
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
